@@ -1,2 +1,13 @@
-# StressModel
-Neural model for prediction of stress position in Russian words
+# Нейросетевая модель для предсказания положения ударения в руских словах
+
+## Использование
+
+```
+import stress_model
+
+model = stress_model.StressModel()
+i = model.predict('кошка')
+print(i)
+```
+
+
