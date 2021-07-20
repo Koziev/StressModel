@@ -7,7 +7,7 @@ import keras
 
 
 class StressModel:
-    def __init__(self, model_dir):
+    def __init__(self, model_dir=None):
         if model_dir is None:
             model_dir = str(pathlib.Path(__file__).resolve().parent)
 

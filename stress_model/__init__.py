@@ -1,1 +1,1 @@
-from stress_model.py import StressModel
+from .stress_model import StressModel
