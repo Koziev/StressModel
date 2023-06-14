@@ -1,1 +1,1 @@
-from .stress_model import StressModel
+from .accentuator import AccentuatorWrapperWithDictionary
