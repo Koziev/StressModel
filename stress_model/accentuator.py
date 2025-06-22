@@ -149,7 +149,7 @@ class AccentuatorWrapper(object):
             config_filepath = os.path.join(model_name_or_path, 'config.json')
             model_filepath = os.path.join(model_name_or_path, 'pytorch_model.pth')
 
-        with open(config_filepath, 'r') as f:
+        with open(config_filepath, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
 
         self.vectorizer = Vectorizer.from_pretrained(self.config)
